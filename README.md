@@ -1,4 +1,4 @@
-# Lab 01: Counted Loop (Compatibility Update)
+# Lab 01: Counted Loop
 
 ## Start in GitHub Codespaces
 
@@ -10,11 +10,7 @@ environment setup to finish, then use the terminal to run `make sim`.
 
 This lab uses a **counted loop** in ARM assembly to practice branching and condition flags.
 
-The required source file is `test_STRCPY.s` in this repository's root.
-
-## Why this lab changed
-
-The original STRCPY version relied on byte load/store instruction forms that are not reliably supported by the current Educore + GNU assembler combination in this repository. This replacement lab keeps the same build/autograder workflow while using a supported instruction subset.
+The required source file is `test_lab01.s` in this repository's root.
 
 ## Learning Objectives
 
@@ -52,7 +48,7 @@ In this lab:
 
 ## Assignment
 
-Open `test_STRCPY.s` and complete the TODO sections to implement a loop that:
+Open `test_lab01.s` and complete the TODO sections to implement a loop that:
 
 - Starts with a counter value of `5`
 - Adds the counter into a running sum each iteration
@@ -82,7 +78,7 @@ The file already initializes:
 
 ### Step 2: Add the Loop Instructions
 
-Fill in the TODOs in `test_STRCPY.s` with these instructions:
+Fill in the TODOs in `test_lab01.s` with these instructions:
 
 ```asm
 sum_loop:

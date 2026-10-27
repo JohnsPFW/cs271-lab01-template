@@ -128,11 +128,6 @@ module test_Educore();
 		end
 	end
 
-	// Signal instantiation to view memory for STRCPY exercise
-	wire [8:0]  mem50;
-	wire [8:0]  mem51;
-	assign mem50 = memory[80];
-	assign mem51 = memory[81];
 
 
 	// Display, instruction memory initialization, error indication

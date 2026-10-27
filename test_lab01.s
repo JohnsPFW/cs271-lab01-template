@@ -1,10 +1,7 @@
 // =============================================================================
-// CS 271 Computer Architecture - Lab 01: Counted Loop (Compatibility Version)
+// CS 271 Computer Architecture - Lab 01: Counted Loop
 // Purdue University Fort Wayne
 // =============================================================================
-// NOTE:
-//   This file name remains "test_STRCPY.s" because the existing Makefile and
-//   autograder target expect it. The exercise below is a supported replacement.
 // =============================================================================
 // STUDENT NAME: ___________________
 // DATE:         ___________________
